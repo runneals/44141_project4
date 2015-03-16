@@ -42,4 +42,4 @@ Matches: 7	MisMatches: 2
 String 1: aaAbbBccc
 String 2: aaBbbCccc
 
-Enter a command: q
+Enter a comm        and: q
