@@ -1,0 +1,45 @@
+Enter DNA 1: aaabbbccc
+Enter DNA 2: aabbbcccc
+	Have DNA input as a string and explode into 2 lists
+
+Enter a command: 
+a(add indel)
+d(delete indel)
+s(score)
+q(quit): s
+	Have command list run as an if...elif...
+
+Matches: 7	MisMatches: 2
+	Compare DNA1:DNA2 (1:1;2:2;3:3;...)
+	if mismatch, capitalize the letters that are wrong
+String 1: aaAbbBccc
+String 2: aaBbbCccc
+
+
+Enter a command: a
+Which String to work on (1 or 2): 2
+Before which index to place the indel?: 2
+String1: aaabbbccc
+String2: aa-bbbcccc
+	Insert - in string at given position
+	It adds an indel automatically at the end of the other string
+
+Enter a command: s
+
+Matches: 8	MisMatches: 2
+String 1: aaAbbbccc-
+String 2: aa-bbbcccC
+
+Enter a command: d
+Which String to work on (1 or 2): 2
+Delete what index (start at 0): 2
+String1: aaabbbccc
+String2: aabbbcccc
+
+Enter a command: s
+
+Matches: 7	MisMatches: 2
+String 1: aaAbbBccc
+String 2: aaBbbCccc
+
+Enter a command: q

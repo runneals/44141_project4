@@ -1,0 +1,29 @@
+David Runneals & Sam Eisenhutt
+
+Have DNA input as a string (priming read)
+explode dna strings into lists
+get menu command input (priming read)
+
+while menu not quit:
+	if menu is scoring:
+		for each element in the list:
+			compare position to position
+				if comparison is the same:
+					add 1 to match count
+				elif comparison is not the same:
+					add 1 to mismatch count
+					capitalize both letters
+		print match count and mismatch count
+	elif menu is adding indel:
+		get input of dna list # and position to insert
+			if out of range:
+				error
+		Insert '-' in list at given position
+		Append an indel automatically at the end of the other string
+	elif menu is delete indel:
+		get input of list # and position of indel
+			if position is indel:
+				delete indel from list
+			elif:
+				error
+	get menu input again
