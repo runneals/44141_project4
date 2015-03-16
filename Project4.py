@@ -1,16 +1,29 @@
 
 str1 = []
 str2 = []
+count = 0
 
 strand1 = input("Enter DNA Strand 1: ")
 strand2 = input("Enter DNA Strand 2: ")
 
-str1(strand1)
-str2(strand2)
+# Convert strand1 string to str1 List
+for n in strand1:
+	str1.append(strand1[count])
+	count += 1
+count = 0
+
+# Convert strand2 string to str2 List
+for n in strand2:
+	str2.append(strand1[count])
+	count += 1
+	
+
+# str1(strand1)
+# str2(strand2)
 
 print(str1)
 
-command = input("\nCommand Menu:  (a)dd indel  ~~  (d)elete indel  ~~  (s)core  ~~  (q)uit\nEnter a Command: ")
+# command = input("\nCommand Menu:  (a)dd indel  ~~  (d)elete indel  ~~  (s)core  ~~  (q)uit\nEnter a Command: ")
 
 
 '''
