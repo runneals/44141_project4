@@ -1,3 +1,8 @@
+# 44-141-02 Project 4
+# Author: Runneals and Eisenhutt
+# Date: 03-16-2015
+''' Application for DNA Sequence Alignment'''
+# ------------------------------------------------------------------
 # This link may help you: https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
 
 # Define Variables that are used throughout the program:
